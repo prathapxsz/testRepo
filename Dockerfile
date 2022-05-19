@@ -19,7 +19,7 @@ RUN mkdir /root/temp:$Now
 
 RUN cp ovaledge.war /root/temp/
 COPY catalina.properties /root/temp/catalina.properties
-image: ovaledge
+image:ovaledge.jfrog.io/ovaledge-docker-local/ovaledge:05-19-22-16-55
 
 EXPOSE 8080
 
