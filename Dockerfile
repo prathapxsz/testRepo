@@ -19,7 +19,7 @@ RUN mkdir /root/temp:$Now
 
 RUN cp ovaledge.war /root/temp/
 COPY catalina.properties /root/temp/catalina.properties
-
+image: ovaledge
 
 EXPOSE 8080
 
